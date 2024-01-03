@@ -6,7 +6,7 @@ import { config } from 'dotenv';
 import { Chapter5Stack } from '../lib/chapter-5-stack';
 import { Chapter5PipelineStack } from '../lib/chapter-5-pipeline-stack';
 
-config({ path: '.env.production' });
+config({ path: '.env.development' });
 
 const app = new cdk.App();
 
